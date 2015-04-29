@@ -40,10 +40,16 @@ public class MainActivity extends Activity implements OnClickListener {
         final Context context=this;
         switch(v.getId())
         {
-            case R.id.page1:
+            case R.id.page1: {
                 Intent i = new Intent(context, FlightList.class);
                 startActivity(i);
                 break;
+            }
+            case R.id.page2: {
+                Intent i = new Intent(context, FlightList.class);
+                startActivity(i);
+                break;
+            }
         }
     }
 }
