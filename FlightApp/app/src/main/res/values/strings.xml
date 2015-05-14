@@ -2,7 +2,21 @@
 <resources>
 
     <string name="app_name">InnovationFlightApp</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+
+    <string name="nav_menu">Navigation Menu</string>
+    <string name="btn_search_flight">Search Flights</string>
+    <string name="btn_favourites">Favourites</string>
+    <string name="btn_upcoming">Upcoming Flights</string>
+
+    <string name="btn_search">Search</string>
+
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_search_flight">Flight Search</string>
+    <string name="title_activity_upcoming_flights">Upcoming Flights</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_flight_details">FlightDetailsActivity</string>
 
 </resources>

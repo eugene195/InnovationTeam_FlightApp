@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Navigation Menu"
+        android:text="@string/nav_menu"
         android:id="@+id/MainMenuLabel"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.04"
@@ -26,7 +26,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Show Flight Info"
+        android:text="@string/btn_search_flight"
         android:id="@+id/page1"
         android:layout_gravity="center_horizontal"
         android:clickable="true"
@@ -38,7 +38,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Add New Flight"
+        android:text="@string/btn_favourites"
         android:id="@+id/page2"
         android:layout_gravity="center_horizontal"
         android:clickable="true"
@@ -49,19 +49,8 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Safety Instructions"
+        android:text="@string/btn_upcoming"
         android:id="@+id/page3"
-        android:layout_gravity="center_horizontal"
-        android:clickable="true"
-        android:layout_weight="0.05"
-        android:textAllCaps="false"
-        android:textSize="20dp" />
-
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Feedback"
-        android:id="@+id/page4"
         android:layout_gravity="center_horizontal"
         android:clickable="true"
         android:layout_weight="0.05"

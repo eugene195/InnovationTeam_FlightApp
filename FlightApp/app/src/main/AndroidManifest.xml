@@ -17,7 +17,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FlightList">
+            android:name=".FavouritesActivity"
+            android:label="@string/title_activity_favourites" >
+        </activity>
+        <activity
+            android:name=".SearchFlightActivity"
+            android:label="@string/title_activity_search_flight" >
+        </activity>
+        <activity
+            android:name=".UpcomingFlightsActivity"
+            android:label="@string/title_activity_upcoming_flights" >
+        </activity>
+        <activity
+            android:name=".FlightDetailsActivity"
+            android:label="@string/title_activity_flight_details" >
         </activity>
     </application>
 
